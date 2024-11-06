@@ -39,7 +39,7 @@ flask --app app run
 A API possui os seguintes endpoints:
 #### status
 * Método: GET <br>
-* URL: http://127.0.0.1:5000/status/ <br>
+* URL: http://127.0.0.1:5000/status <br>
 * Descrição: Retorna o status da API
 
 #### inference
@@ -70,7 +70,7 @@ Resposta: {'category': 'Iris-versicolor'}
 ## Docker
 
 A aplicação também pode ser utilizada com docker, através da porta 9002, os endpoints são os mesmos.<br><br>
-http://localhost:9002/status/  <br>
+http://localhost:9002/status  <br>
 http://localhost:9002/inference/
 
 Para facilitar a usabilidade, utilize os comandos com Make. Assim, para construir a imagem e executar o container, basta executar:   
