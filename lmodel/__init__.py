@@ -1,6 +1,6 @@
-from .services import run_inferece, validate_input
+from .services import run_inference, validate_input
 
 __all__ = [
-    "run_inferece",
+    "run_inference",
     "validate_input",
 ]

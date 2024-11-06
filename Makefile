@@ -15,7 +15,10 @@ help:
 	@echo "    run    	Build and run the docker image"
 	@echo "    clean    Stop and remove the docker image"
 
-# Execução
+
+run-local:
+	flask --app app run
+
 build:
 	docker build -t $(PROJECT_NAME) .
 
@@ -30,7 +33,7 @@ clean:
 	docker rm $(PROJECT_NAME)
 	docker volume rm $(DOCKER_IMG) --force
 
-# Lint
+
 flake:
 	pip install flake8
 	flake8 app.py
@@ -47,6 +50,5 @@ format:
 	black lmodel/
 
 
-# Testes
 test:
-	python -m unittest discover lmodel/tests
+	pytest ./tests

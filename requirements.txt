@@ -3,3 +3,5 @@ requests
 Flask
 numpy
 pandas
+pytest
+pytest-mock

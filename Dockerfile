@@ -1,7 +1,5 @@
 FROM python:3.11
 
-FROM python:3.6
-
 RUN apt-get update 
 
 RUN apt-get install ffmpeg libsm6 libxext6 git -y
