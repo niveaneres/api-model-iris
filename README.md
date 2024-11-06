@@ -138,8 +138,7 @@ make clean
 
   * __Pipeline CI/CD__: <br> Criaria um pipeline de integração contínua (CI) e entrega contínua (CD) para garantir que o código seja automaticamente testado, validado e implantado em produção. Esse pipeline realizaria a execução de testes unitários, validação do modelo e verificação de métricas de desempenho antes de subir o código. 
    
-  * __Escalabilidade__: <br> Utilizaria o Kubernetes para gerenciar a infraestrutura e garantir a escalabilidade do modelo conforme a demanda. Orquestrando os containers e distribuindo a carga de trabalho entre diferentes nós e, quando necessário, subir novos nós automaticamente para lidar com picos de tráfego. Com isso, seria possível garantir que o modelo possa lidar com um aumento no volume de dados ou de requisições sem comprometer a performance. 
-
+  * __Escalabilidade__: <br> Utilizaria o Kubernetes para gerenciar a infraestrutura e garantir a escalabilidade do modelo conforme a demanda. Orquestrando os containers e distribuindo a carga de trabalho entre diferentes nós e, quando necessário, subir novos nós automaticamente para lidar com picos de tráfego.
 
 
 
