@@ -67,7 +67,7 @@ Resposta: {'category': 'Iris-versicolor'}
 ```
 ## Docker
 
-A aplicação também pode ser utilizada com docker, através da porta 9002, os endpoints são os mesmos.<br><br>
+A aplicação também pode ser utilizada com docker, através da porta 9002.<br><br>
 http://localhost:9002/status  <br>
 http://localhost:9002/inference/
 
