@@ -52,7 +52,7 @@ def inference():
     
     predictions = predictions[0] if len(predictions) == 1 else predictions
     logger.info("done!")
-    return jsonify({"categories": predictions}), 200
+    return jsonify({"category": predictions}), 200
 
 
 if __name__ == "__main__":
