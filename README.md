@@ -2,8 +2,6 @@
 
 Esse projeto consiste em um aplicação em Python que realiza inferência de um modelo pré-treinado, que é capaz de realizar classificações utilizando características como comprimento e largura de pétalas e sépalas, retornando uma das três espécies de íris: Iris-setosa, Iris-versicolor e Iris-virginica. 
 
-[TOC]
-
 ## Instalação
 #### Clone o repositório
 ```bash
