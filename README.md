@@ -65,6 +65,10 @@ Resposta:
 ```python   
 Resposta: {'category': 'Iris-versicolor'}
 ```
+
+## Demonstração com Postman
+https://github.com/user-attachments/assets/6e039a5b-a682-4d2e-93d0-5d0788a3e409
+
 ## Docker
 
 A aplicação também pode ser utilizada com docker, através da porta 9002.<br><br>
